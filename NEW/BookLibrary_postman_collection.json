@@ -1,0 +1,547 @@
+{
+	"info": {
+		"_postman_id": "de9c7f72-c7d3-47c8-86ac-31e4ee836e7b",
+		"name": "BookLibrary API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET ID",
+			"item": [
+				{
+					"name": "Get Un-Sorted Books",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sorted Book",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/ids",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"ids"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sorted Containing only B",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/ids/b",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"ids",
+								"b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Sorted Containing only B1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/ids/b1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"ids",
+								"b1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET AUTHOR",
+			"item": [
+				{
+					"name": "Get Sorted Authors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/author",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"author"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Selected Author By SeachTerm",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/author/joe",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"author",
+								"joe"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET TITLE",
+			"item": [
+				{
+					"name": "Get Sorted Titles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/title",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"title"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Selected Title By SeachTerm",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/title/Deploying",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"title",
+								"Deploying"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET GENRE",
+			"item": [
+				{
+					"name": "Get Sorted Genres",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/genre",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"genre"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Selected Genre By SeachTerm",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/genre/fantasy",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"genre",
+								"fantasy"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET PRICE",
+			"item": [
+				{
+					"name": "Get Sorted Prices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/price",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"price"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Selected Price By SeachTerm",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/price/11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"price",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Selected Price By Range",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/price/11&36",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"price",
+								"11&36"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET DATE",
+			"item": [
+				{
+					"name": "Get Sorted Dates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/date",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"date"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Selected Date By Year",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/date/2000",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"date",
+								"2000"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Selected Date By Year - Month",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/date/2000-11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"date",
+								"2000-11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Selected Date By Year - Month - Day",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/date/2000-11-17",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"date",
+								"2000-11-17"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET DESCRIPTION",
+			"item": [
+				{
+					"name": "Get Sorted Descriptions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/description",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"description"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Selected Description By SeachTerm",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7278/api/books/description/deploy",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"description",
+								"deploy"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST & PUT & DELETE",
+			"item": [
+				{
+					"name": "POST NEW BOOK OBJECT",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"author\": \"Alexandre Dumas\",\n\t\"title\": \"The Count of Monte Cristo\",\n\t\"genre\": \"Adventure\",\n    \"price\": \"22.95\",\n    \"publish_Date\": \"1846-01-15\",\n    \"description\": \"The Count of Monte Cristo is an adventure novel written by French author Alexandre Dumas completed in 1844. It is one of the author's most popular works, along with The Three Musketeers. \"\n}"
+						},
+						"url": {
+							"raw": "https://localhost:7278/api/books",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE Employee for company",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"author\": \"Alexandre Dumas\",\n\t\"title\": \"The Count of Monte Cristo\",\n\t\"genre\": \"Adventure\",\n    \"price\": \"15.95\",\n    \"publish_Date\": \"1846-01-15\",\n    \"description\": \"The Count of Monte Cristo is an adventure novel written by French author Alexandre Dumas completed in 1844. It is one of the author's most popular works, along with The Three Musketeers. \"\n}"
+						},
+						"url": {
+							"raw": "https://localhost:7278/api/books/B14",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"B14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE Employee for company",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://localhost:7278/api/books/B14",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7278",
+							"path": [
+								"api",
+								"books",
+								"B14"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
